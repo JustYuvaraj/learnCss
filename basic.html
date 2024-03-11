@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css basics</title>
+    <style>
+        p.rgb { color: rgb(0, 128, 255); } /* A bright blue */
+        p.rgba { color: rgba(255, 0, 0, 0.8); } /* Semi-transparent red */  
+        p#hsl { color: hsl(0, 100%, 50%); } /* Pure red */
+        p#hex { color: #FF8C00; }  /* Orange */
+        p#name { color: purple; }
+        p { 
+      font-family: "Courier New", Courier, monospace;
+      font-size: 18px; 
+      color: darkgreen;
+  }
+
+  h1 {
+      text-transform: uppercase;
+      font-family: Arial, sans-serif;
+  }
+  p { font-family: "sans-serif"; }
+
+  .special {
+      text-decoration: underline wavy red;}
+      p#rgba { text-decoration: underline; }
+      p#rgb { text-transform: uppercase; }
+    </style>
+</head>
+<body>
+    <h1>This heading is uppercase and Arial.</h1>
+    <p class="special">This text has a special wavy red underline!</p>
+    <p class="rgb">This text is RGB blue.</p>
+    <p class="rgba">This text is semi-transparent red.</p>
+    <p id="hsl">This text is HSL red.</p>
+    <p id="hex">This text is orange (hexadecimal).</p>
+    <p id="name">This text is purple (named color).</p> 
+</body>
+</html>
